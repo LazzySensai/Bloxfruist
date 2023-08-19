@@ -1,12 +1,12 @@
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Sara Hub";
-	Text = "Sara Shop ";
+	Text = "https://discord.gg/HxvnbCMCnf ";
 	Duration = "15";
 	})
 	
 
 local Update =  loadstring(Game:HttpGet"https://relzbloxencryt.xcodehoster.com/DynamicHubLibrary.lua")()
-local Library = Update:Window("Reskin Hub","Blox Fruit",Enum.KeyCode.RightControl);
+local Library = Update:Window("Sara Hub","Blox Fruit",Enum.KeyCode.RightControl);
 local User = Library:Tab("User", "rbxassetid:/")
 local Main = Library:Tab("Main","rbxassetid://")
 local Set = Library:Tab("Setting","rbxassetid://")
@@ -135,7 +135,7 @@ end)
 
 
 Set:Seperator("Settings")
-Set:Toggle("Bypass Anti Cheatâœ…", true, function(value)
+Set:Toggle("Bypass Anti Cheat…", true, function(value)
   _G.SafeFarm = value
 end)
 Set:Seperator('Effects')
